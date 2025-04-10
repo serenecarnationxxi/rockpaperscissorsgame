@@ -13,9 +13,9 @@ const p_score = document.getElementById('player_score');
 const c_score = document.getElementById('computer_score');
 
 // Create an audio object
-const player_win_sound = new Audio('sounds/player_win.wav');
-const computer_win_sound = new Audio('sounds/computer_win.wav');
-const draw_game_sound = new Audio('sounds/draw_sound.wav');
+const player_win_sound = new Audio('player_win.wav');
+const computer_win_sound = new Audio('computer_win.wav');
+const draw_game_sound = new Audio('draw_sound.wav');
 
 
 // Select all three buttons
