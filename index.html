@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="icon" type="image/x-icon" href="images/rockpaperscissors_logo.jpeg">
+
+  </head>
+  <body>
+    <audio id="player_win_sound" src="sounds/player_win.wav"></audio>
+    <audio id="computer_win_sound" src="sounds/computer_win.wav"></audio>
+    <audio id="draw_game_sound" src="sounds/draw_sound.wav"></audio> 
+
+    <div class="score_wrapper">
+        <div class="score">
+            <h5 id="player_score">Player: 0</h5>
+        </div>
+        <div class="score">
+            <h5 id="computer_score">Computer: 0</h5>
+        </div>
+    </div>
+    <div class="winner_announcer">
+        <h5 id="winner">Choose!</h5>
+    </div>
+    <div class="button_wrapper">
+        <div class="button">
+            <button value="ROCK" title="ROCK" id="rock">ROCK🪨</button>
+        </div>
+        <div class="button">
+            <button value="PAPER" title="PAPER" id="paper">PAPER📃</button>
+        </div>
+        <div class="button">
+            <button value="SCISSORS" title="SCISSORS" id="scissors">SCISSORS✂️</button>
+        </div>
+    </div>
+    <div class="choose">
+        <h5 id="player_choose">Player: ???</h5>
+    </div>
+    <div class="choose">
+        <h5 id="computer_choose">Computer: ???</h5>
+    </div>
+    <div class="loading">
+        <h5 id="loading"></h5>
+    </div>
+    <div class="reset_wrapper">
+        <button value="reset" title="Reset" id="reset">Reset</button>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #131313e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score_wrapper{
+    position: relative;
+    display: flex;   
+    flex-direction: row;
+}
+.score_wrapper .score #player_score, #computer_score{
+    display: flex;
+    height: 20px;
+    width: 460px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-direction: row;
+    color: azure;
+}
+
+
+
+
+
+
+.button_wrapper{
+    position: relative;
+    display: flex;    
+}
+.button_wrapper .button #rock, #paper, #scissors {
+    display: flex;
+    height: 20px;
+    width: 245px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 180, 89);
+    font-size: 20px;
+    border-color: black;
+}
+
+.button_wrapper .button #rock:hover, #paper:hover, #scissors:hover {
+
+    background-color: rgb(189, 113, 19);
+
+}
+
+
+
+.winner_announcer {
+    height: 75px;
+    color: rgb(254, 1, 1);
+    font-size: 40px;
+    margin: 30px;
+    
+
+}
+
+.choose h5{
+    display: flex;
+    height: 25px;
+    color: rgba(189, 189, 189, 0.805);
+    flex-direction: column-reverse;
+    
+    
+
+}
+
+.loading #loading {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    flex-direction: column-reverse;
+    color: rgb(223, 214, 214);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.reset_wrapper {
+    position: relative;
+    display: flex;  
+   
+
+}
+
+.reset_wrapper #reset {
+    direction: flex;
+
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    margin: 25px;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 10px;
+    background-color: rgb(179, 84, 84);
+
+}
+.reset_wrapper #reset:hover {
+
+    background-color: rgb(242, 40, 40);
+
+}
+
